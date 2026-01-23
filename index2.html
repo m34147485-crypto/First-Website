@@ -1,1 +1,239 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Personal Webpage</title>
+<style>
+body {
+      background-color: powderblue;
+      font-family: Arial;
+      color: black;
+      text-align: center;
+      }
+
+div.header {
+        background-color: tomato;
+        color: white;
+        tex-align: center;	
+        padding: 10px;
+      }
+h1 {
+	color: navy;
+	font-size: 36px;
+	}
+p {
+	font-size: 18px;
+	}
+.grid-container {
+	display: grid;
+	grid-template-columns: auto auto auto;
+	gap: 10px;
+	background-color: #f8f8f8;
+	padding: 10px;
+}
+.grid-item {
+	background-color: #4CAF50;
+	color: white;
+	padding: 20px;
+	text-align: center;
+}
+
+.button-transition {
+	background-color: navy;
+	color: white;
+	padding: 10px 20px;
+	transition: background-color 0.3s ease;
+	border: none;
+	cursor: pointer;
+}
+
+.button-transition:hover {
+	background-color: tomato;
+}
+img {
+	width: 200px;
+	height: 125px;
+	border-radius: 50%;
+	border: 3px solid green;
+	margin-top: 10px;
+}
+.flex-container {
+	display: flex;
+	justify-content: space-around;
+	background-color: lightgray;
+	padding: 20px;
+}
+.flex-item {
+	background-color: steelblue;
+	color: white;
+	padding: 20px;
+	width: 29%;
+	text-align: center;
+}
+.table-style1 {
+	width: 80%;
+	margin: 20px auto;
+	border: 2px solid navy;
+}
+.table-style1 th, .table-style1 td {
+	border: 1px solid navy;
+	padding: 10px;
+	text-align: center;
+}
+.table-style1 th {
+	background-color: lightblue;
+}
+.table-style2 {
+	width: 60%;
+	margin: 20px auto;
+	border-collapse: collapse;
+	border: 2px solid darkgreen;
+}
+.table-style2 th, .table-style2 td {
+	border: 1px solid darkgreen;
+	padding: 10px;
+	text-align: center;
+}
+.table-style2 th {
+	background-color: lightgreen;
+}
+div.mycontainer {
+	width:66%;
+	overflow:auto;
+}
+div.mycontainer div {
+	width:50%;
+	float:left;
+}
+.list-style1 {
+	list-style-type: square;
+	color: darkblue;
+	text-align: left;
+	margin: 20px;
+}
+.list-style2 {
+	list-style-type: circle;
+	color: darkgreen;
+	text-align: left;
+	margin: 20px;
+}
+.video {
+	width: 35%;
+	margin: 10px auto;
+	text-align: center;
+	border: 3px solid green;
+	background-color: DarkTurquoise;
+}
+
+
+</style>
+</head>
+<body>
+<div class = "header">
+	<h1>Welcome to My Personal Webpage</h1>
+	<p>This is a simple example of an HTML, JavaScript, and CSS personal webpage.</p>
+
+<pre style = "font-size: 24px";>
+Name: Matthew Brady	
+Age: 52
+Location: Kansas City
+</pre>
+<br>
+<div class="grid-container">
+
+<div class="grid-item"><a href = "https://www.smule.com/" style = "color:black"; target = "_blank";>
+<button class = "button-transition">SMULE: Let's Music Together</button></a></div>
+
+<div class = "grid-item"></div>
+
+<div class="grid-item"><a href = "hyperlink" style = "color:black"; target = "_blank";>
+<button class = "button-transition">Java Script Adventure Game</button></a></div>
+
+<div class="grid-item"></div>
+
+<div class="grid-item"><a href = "adventure.html" style = "color:black"; target = "_blank";>
+<button class = "button-transition">Adventure Game Webpage</button></a></div>
+
+<div class="grid-item"></div>
+</div>
+</div>
+
+<div class="flex-container">
+
+<div class="flex-item"><p>Check out my favorite website:
+<a href="https://www.smule.com/" target"_blank">SMULE</a></p></div>
+<div class="flex-item">
+<a href="https://www.smule.com/ " target="_blank">
+<img src="https://github.com/m34147485-crypto/First-Website/blob/main/Screenshot%202026-01-22%20100200.png?raw=true" alt="Eyes to the Soul" title ="Eyes to the Soul"></a></div>
+<div class="flex-item"><p>Email me at the following address: <a href="mailto:m34147485@gmail.com" target="_blank">m34147485@gmail.com</a></p></div>
+</div>
+<br><br>
+<hr>
+<br><br>
+<div class="grid-container">
+<div class="grid-item">
+<h2>My Hobbies</h2>
+<table class="table-style1">
+<tr>
+<th>Hours/Week</th>
+</tr>
+<tr>
+<td>Hobby 1</td>
+<td>time</td>
+</tr>
+<tr>
+<td>Hobby 2</td>
+<td>time</td>
+</tr>
+</table>
+</div>
+<div class="grid-item"></div>
+<div class="grid-item">
+<h2>My Favorite Movies</h2>
+<table class="table-style2">
+<tr>
+<th>Movie</th>
+<th>Year</th>
+</tr>
+<tr>
+<td>Your movie</td>
+<td>release year</td>
+<tr>
+<td>Your movie</td>
+<td>release year</td>
+</tr>
+</table>
+</div>
+</div>
+<div class="mycontainer">
+<div style="background-color: LightCyan";>
+<h2>My Favorite Foods</h2>
+<ul class="list-style1">
+<li>Peanut Butter and Strawberry Jelly Sandwich</li>
+<li>Macaroni and Cheese</li>
+<li>Combonation Pizza - YUM</li>
+</div>
+</ul>
+<div style="background-color: Aquamarine";>
+<h2>My Favorite Drinks</h2>
+<ul class="list-style2">
+<li>Dr Pepper</li>
+<li>Mio Fruit Punch</li>
+<li>Starbucks Mocha Cookie Crumble Frappucino</li>
+</ul>
+</div>
+</div>
+<br><br><br>
+<div class="video">
+<h2>My Favorite Video</h2>
+<video width="400" height="320" controls>
+<source src="https://github.com/m34147485-crypto/First-Website/blob/main/Cute%20And%20Funny%20Baby%20Laughing%20Hysterically%20Compilation%20__%205-Minute%20Fails.mp4?raw=true"
+Your Browser Sucks. Go get another one to play this video.
+<video>
+</div>
+<h2>Embedded Website</h2>
+<iframe src="https://quirkycort.github.io/gears/public/" width="700" height="466" style="border: none;"></iframe>
+
+
+</body>
+<html>
 
